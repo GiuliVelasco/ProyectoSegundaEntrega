@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- link de CSS -->
+    <link rel="stylesheet" href="../CSS/main.css">
+
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <title>Cursos - Dojo Icmen</title>
+</head>
+
+<body>
+    <header>
+        <seccion class="navbar fondoheader">
+            <div class="container-fluid align-self-start justify-content-end">
+                <a class="colortitulo">
+                    <img class="logo girar" src="../img/logo.jpeg" alt="Logo del Dojo" width="80" height="80"
+                        class="d-inline-block align-text-top">
+                </a>
+            </div>
+    </header>
+
+    <!-- menu de navegación -->
+    <nav class="navbar fondonav">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link navcolor" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active navcolor" href="cursos.html">Cursos</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navcolor" href="" id="navbarDropdownMenuLink"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tienda
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                        <a class="dropdown-item" href="tienda.html">Remeras</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="tienda.html">Judogis</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="tienda.html">Accesorios</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+
+            <!--Carrusel de imagenes-->
+            <section class="row mt-4 mb-4">
+                <div id="carouselExampleIndicators" class="carousel slide col-md-6" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/judoka1.jpeg" class="d-block w-100 img-fluid" alt="imagen judo">
+
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="leyendaImg">Judo de competicion</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="../img/judoka2.jpeg" class="d-block w-100 img-fluid"
+                                alt="imagen defensa personal con armas">
+
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="leyendaImg">Defensa personal con armas</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="../img/judoka4.jpeg" class="d-block w-100 img-fluid"
+                                alt="imagen defensa personal sin armas">
+
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="leyendaImg">Defensa personal sin armas</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="col-md-3 text-center d-flex align-items-c">
+                    <p>JUDO DE COMPETICIÓN <br>
+                        La competencia es una etapa importante en el desarrollo de los practicantes del judo, los expone
+                        a enfrentar sus miedos y debilidades. La superación se logra mediante el empleo de sus propios
+                        recursos y animándose a transitar un largo camino.
+                        <br>
+                        En este recorrido aprenderá a sortear desafíos, conocer y desarrollar sus cualidades, mejorar
+                        sus habilidades y fortalecer sus debilidades mediante la disciplina, el compromiso y el trabajo
+                        continuo.
+                    </p>
+                </div>
+                <div class="col-md-3 text-center d-flex align-items-c">
+                    <p>DEFENSA PERSONAL<br>
+                        El Judo es un arte marcial que implica el uso de varias posiciones, agarres y bloqueos, es una
+                        manera de aprender técnicas de defensa personal, a la vez que se obtiene un gran entrenamiento
+                        físico y se consigue bajar niveles de tensión diarios.<br>
+                        La Defensa Personal no constituye solamente un conjunto de técnicas mecánicas, sino que pretende
+                        formar en la persona una actitud positiva, calma y alerta, con control físico y mental ante la
+                        vida.
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="fondofooter text-black">
+        <div class="container-fuid">
+
+            <div class="row m-0">
+                <div class="col-6 text-right">
+                    <p> Encontranos en Calle Los Pescadores 918 - Las Heras - Mendoza <br> Teléfono: (261)xxxxxxx </p>
+                </div>
+                <!-- Section: Social media -->
+                <section class="mb-4 text-center col-6">
+
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/DojoIcmen"
+                        role="button" target="blank">
+                        <img height=30rem width=30rem src="../img/iconFacebook.png" alt="Icono de Facebook">
+                    </a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/dojo_icmen/"
+                        target="blank" role="button">
+                        <img height="30rem" width="30rem" src="../img/iconInsta.png" alt="Icono de Instagram">
+                    </a>
+
+                </section>
+            </div>
+
+            <!-- Copyright -->
+            <div class="row text-center p-1 m-0" style="background-color: #810000;">
+                <p class="text-white">© 2022 Copyright: Giuliana Velasco</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- link js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

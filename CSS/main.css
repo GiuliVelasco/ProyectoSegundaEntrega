@@ -1,0 +1,60 @@
+.logo {
+    border-radius: 100px;
+}
+
+/* Animacion en logo */
+.girar{
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+}
+@keyframes girar{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.fondoheader{
+    background-image: url(../img/portada2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 240px;
+}
+.navcolor{
+    color: #EEEBDD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.fondonav{
+    background-color: #810000;
+}
+.colortitulo{
+    color: #CE1212;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tituloMain{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+.fondofooter{
+    background-color: #EEEBDD;
+}
+.leyendaImg{
+    font-size: 2rem;
+}
+.nav-link:hover{
+    color: #EEEBDD;
+}
+.videoIndex{
+    margin-bottom: 2rem;
+}
+/* @media (max-width: 768px) { 
+    .clase
+}*/
